@@ -1,12 +1,27 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sentence Construction Quiz App
 
-Currently, two official plugins are available:
+An interactive web application for testing and enhancing sentence construction skills. Users are challenged to complete sentences by selecting the correct words in order, under a countdown timer. At the end of the test, a detailed scorecard with performance analytics and correct answers is displayed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+⏱️ Timed quiz – each question has a countdown for added challenge.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧩 Multiple sentence completion tasks with shuffled options.
+
+✅ Automatic answer checking and score calculation.
+
+📊 Dynamic Scorecard – shows overall score, question-wise results (correct/incorrect), and explanations.
+
+📌 Dashboard Section – scrollable answer review with feedback.
+
+🔁 Retake Option – easily retake the quiz to improve your performance.
+
+Tech Stack
+
+React – Frontend Framework
+
+React Router – Navigation & routing
+
+Tailwind CSS – Styling and responsive design
